@@ -26,7 +26,7 @@ function Story(props) {
 }
 
 function mapState(state) {
-    return state;
+    return state.stories;
 }
 
 function mapDispatch(dispatch) {
